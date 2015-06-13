@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main()
+{
+    srand(time(NULL));
+    int choice = rand() % 5;
+
+    if (choice == 0)
+        printf("Read a play");
+    else if (choice == 1)
+        printf("Read a book");
+    else if (choice == 2)
+        printf("Do push-ups till max");
+    else if (choice == 3)
+        printf("Write for 20 minutes");
+    else if (choice == 4)
+        printf("Design on Solidworks");
+    else if (choice == 5)
+        printf("Sketch");
+}
+
+//Ali Ahmed
